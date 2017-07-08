@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">HIIT Me</string>
+    <string name="app_name">HIIT Me S1-S12</string>
     <string name="title_program_detail">Program Detail</string>
     <string name="caption_actionbar_about">About</string>
     <string name="caption_actionbar_edit">Edit</string>

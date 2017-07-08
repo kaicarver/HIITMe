@@ -4,7 +4,7 @@ buildscript {
         maven { url 'https://maven.fabric.io/public' }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.0.0'
+        classpath 'com.android.tools.build:gradle:2.3.3'
         classpath 'io.fabric.tools:gradle:1.+'
     }
 }
@@ -27,7 +27,7 @@ dependencies {
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    buildToolsVersion '25.0.0'
 
     sourceSets {
         main {
@@ -58,6 +58,7 @@ android {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-project.txt'
+            zipAlignEnabled true
         }
     }
 }

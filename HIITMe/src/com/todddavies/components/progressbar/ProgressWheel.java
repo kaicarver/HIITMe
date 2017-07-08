@@ -12,7 +12,7 @@ import android.os.Message;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.alexgilleran.hiitme.R;
+import com.alexgilleran.hiitmeS1S12.R;
 
 /**
  * An indicator of progress, similar to Android's ProgressBar. Can be used in 'spin mode' or 'increment mode'

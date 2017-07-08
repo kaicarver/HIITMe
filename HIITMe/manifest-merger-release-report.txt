@@ -1,8 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from AndroidManifest.xml:2:1
-	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
 	package
 		ADDED from AndroidManifest.xml:3:5
 	android:versionName
@@ -11,8 +9,13 @@ ADDED from AndroidManifest.xml:2:1
 		ADDED from AndroidManifest.xml:4:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
 uses-sdk
 ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from HIITMe.../:ShowcaseView:unspecified:20:5
 MERGED from com.android.support:appcompat-v7:21.0.3:15:5
 MERGED from com.android.support:support-v4:21.0.3:15:5
 MERGED from com.crashlytics.sdk.android:crashlytics:2.2.1:7:5
@@ -33,6 +36,8 @@ application
 ADDED from AndroidManifest.xml:14:5
 MERGED from com.android.support:appcompat-v7:21.0.3:16:5
 MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
 MERGED from com.crashlytics.sdk.android:crashlytics:2.2.1:11:5
 MERGED from com.crashlytics.sdk.android:answers:1.1.1:9:5
 MERGED from io.fabric.sdk.android:fabric:1.1.1:9:5
@@ -41,29 +46,29 @@ MERGED from com.crashlytics.sdk.android:beta:1.1.1:9:5
 MERGED from io.fabric.sdk.android:fabric:1.1.1:9:5
 	android:label
 		ADDED from AndroidManifest.xml:19:9
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:17:9
 	android:allowBackup
 		ADDED from AndroidManifest.xml:16:9
 	android:icon
 		ADDED from AndroidManifest.xml:18:9
 	android:theme
 		ADDED from AndroidManifest.xml:20:9
-	android:hardwareAccelerated
-		ADDED from AndroidManifest.xml:17:9
 	android:name
 		ADDED from AndroidManifest.xml:15:9
 meta-data#AA_DB_NAME
 ADDED from AndroidManifest.xml:21:9
-	android:name
-		ADDED from AndroidManifest.xml:22:13
 	android:value
 		ADDED from AndroidManifest.xml:23:13
+	android:name
+		ADDED from AndroidManifest.xml:22:13
 meta-data#AA_DB_VERSION
 ADDED from AndroidManifest.xml:24:9
-	android:name
-		ADDED from AndroidManifest.xml:25:13
 	android:value
 		ADDED from AndroidManifest.xml:26:13
-activity#com.alexgilleran.hiitme.activity.MainActivity
+	android:name
+		ADDED from AndroidManifest.xml:25:13
+activity#com.alexgilleran.hiitmeS1S12.activity.MainActivity
 ADDED from AndroidManifest.xml:28:9
 	android:label
 		ADDED from AndroidManifest.xml:30:13
@@ -79,16 +84,16 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:34:17
 	android:name
 		ADDED from AndroidManifest.xml:34:27
-service#com.alexgilleran.hiitme.programrunner.ProgramRunService
+service#com.alexgilleran.hiitmeS1S12.programrunner.ProgramRunService
 ADDED from AndroidManifest.xml:38:9
 	android:name
 		ADDED from AndroidManifest.xml:38:18
 meta-data#com.crashlytics.ApiKey
 ADDED from AndroidManifest.xml:40:9
-	android:name
-		ADDED from AndroidManifest.xml:41:13
 	android:value
 		ADDED from AndroidManifest.xml:42:13
+	android:name
+		ADDED from AndroidManifest.xml:41:13
 uses-permission#android.permission.INTERNET
 ADDED from AndroidManifest.xml:45:5
 MERGED from com.crashlytics.sdk.android:crashlytics:2.2.1:9:5

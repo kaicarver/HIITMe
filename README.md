@@ -1,5 +1,13 @@
-HIIT Me
-=======
+HIIT Me S1-S12
+==============
+
+This is an exact clone of Alex Gilleran's exellent open source HIIT Me interval training app, with the addition of the S1-S12 program for convenience. It saves people the trouble of entering all 12 steps themselves. I plan to modify the app some more to make training programs exportable and shareable, but for now this will have to do.
+
+This cloned app has been published to the Play Store here:
+
+https://play.google.com/store/apps/details?id=com.alexgilleran.hiitmeS1S12
+
+This is Alex Gilleran's original README:
 
 Back in 2013 I was looking for a job and I thought it'd be fun to crank out a quick interval timer to prove that I knew Android. All the timers I'd used in the play store (and there are literally dozens) were quick, dirty jobs with one or more terrible problems, and I wanted something that actually worked. The problem was that
 

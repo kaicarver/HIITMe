@@ -3,6 +3,10 @@ HIIT Me S1-S12
 
 This is an exact clone of Alex Gilleran's exellent open source HIIT Me interval training app, with the addition of the S1-S12 program for convenience. It saves people the trouble of entering all 12 steps themselves. I plan to modify the app some more to make training programs exportable and shareable, but for now this will have to do.
 
+This is the S1-S12 program, which helps you to learn to run without stopping for 30 minutes in 12 sessions:
+
+https://github.com/kaicarver/s1s12workout
+
 This cloned app has been published to the Play Store here:
 
 https://play.google.com/store/apps/details?id=com.alexgilleran.hiitmeS1S12
